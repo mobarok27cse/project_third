@@ -1,0 +1,233 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.grad {
+	border: 15px solid transparent;
+	border-image: linear-gradient(0deg, white, lightblue);
+	border-image-slice: 1;
+	overflow: hidden;
+	
+
+
+}
+.project{
+	border: 1px solid  #95A4B7;
+	box-shadow: 2px;
+}
+
+header {
+	background-color: #FFFFFF;
+	overflow: hidden;
+	min-height: 72px;
+
+}
+
+.logo {
+	width: 26%;
+	float: left;
+
+}
+
+.logo img {
+	width: 20%;
+	float: left;
+	margin-top: 2px;
+
+}
+
+.logo h1 {
+	width: 70%;
+	float: left;
+	color: #4A545D;
+	margin: 14px auto;
+
+}
+
+.nav {
+	width: 65%;
+	float: right;
+}
+
+.nav ul {
+	list-style: none;
+	float: right;
+
+}
+
+.nav ul li {
+	float: left;
+
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: #4A545D;
+	padding: 25px 23px;
+	display: block;
+	transition: 1s;
+
+}
+
+.nav ul li a:hover {
+	color: darkred;
+}
+
+/*header style end*/
+
+/*banner start*/
+
+.banner {
+	background-image: url("banner.jpg");
+	text-align: left;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 402px;
+	overflow: hidden;
+	position: relative;
+
+
+
+}
+
+.left_content {
+	min-height: 208px;
+	width: 288px;
+	background-color: #716056;
+	margin-top: 45px;
+	position: absolute;
+	opacity: 0.8;
+	color: aliceblue;
+
+}
+
+.left_content h1 {
+	padding-top: 22px;
+	margin-left: 15px;
+
+}
+
+.left_content p {
+	padding-top: 10px;
+	margin-left: 16px;
+}
+
+.left_content button {
+	margin-left: 16px;
+	margin-top: 15px;
+	padding: 5px 10px;
+	border-radius: 10px;
+	background-color: #4A545D;
+	color: white;
+}
+
+/*banner start*/
+
+/*service section start*/
+
+/*service top-start*/
+
+.service {
+
+	overflow: hidden;
+
+}
+
+.section {
+	min-height: 474px;
+	background-color: #FFFFFF;
+}
+
+.service_top {
+	min-height: 392px;
+}
+
+.service_single {
+	width: 28%;
+	float: left;
+	text-align: center;
+	padding: 0px 22px;
+	padding-top: 60px;
+	color: #4A545D;
+}
+
+.service_single img {
+	margin-top: 5px;
+}
+
+.service_single p {
+	margin-top: 34px;
+}
+
+.service_single button {
+	margin-top: 40px;
+	color: #FFF;
+	background-color: dimgray;
+	border: 1px solid dimgray;
+	border-radius: 5px;
+	padding: 5px 11px;
+}
+
+/*service top-end*/
+
+/*service footer-start*/
+
+.service_footer {
+	min-height: 80px;
+}
+
+.service_footer p {
+	text-align: center;
+	color: #4A545D;
+}
+
+.service_footer p span {
+	font-size: 13px;
+}
+
+.service_footer ul {
+	list-style: none;
+}
+
+.service_footer ul li {
+	float: left;
+}
+
+.service_footer ul li a {
+	text-decoration: none;
+	padding: 5px 10px;
+	margin: 0 10px;
+
+
+}
+
+.service_footer ul li a i {}
+
+.last_footer {
+	margin-left: 535px;
+	padding-top: 13px;
+}
+
+.icon1 {
+	background-color: #4A5;
+}
+
+.icon2 {
+	background-color: aqua;
+}
+
+.icon3 {
+	background-color: red;
+}
+
+.icon4 {
+	background-color: yellow;
+}
+
+/*service footer-end*/
+
+/*service section end*/
